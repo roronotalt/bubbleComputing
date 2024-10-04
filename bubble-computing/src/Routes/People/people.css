@@ -1,0 +1,61 @@
+.teamContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+.teamList {
+  flex: 1;
+}
+
+.photo {
+  position: fixed;
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  border: 2px solid #00ff00; /* green outline */
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.5); /* green glow */
+  transition: opacity 0.3s ease-in-out;
+}
+
+.content {
+  padding: 2rem;
+  color: white;
+  font-size: 1.2rem;
+  max-width: 800px;
+}
+
+td {
+  color: white;
+  padding-left: 20px;
+  font-size: 1.2rem;
+}
+
+.textContainer {
+  justify-content: center;
+  align-items: center;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popupContent {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.popupContent img {
+  max-width: 100%;
+  height: auto;
+}
